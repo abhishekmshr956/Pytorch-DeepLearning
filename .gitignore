@@ -3,3 +3,18 @@ models/
 **/data/
 **/models/
 .DS_Store
+**/output/
+**/checkpoint/
+
+# ignore the .pyc files
+*.pyc
+
+# ignore all the log files
+**/logs/
+
+# ignore all the events.out.tfevents files
+**/events.out.tfevents.*
+
+# ignore the dcgan.ipynb in subdirectories
+**/dcgan.ipynb
+
